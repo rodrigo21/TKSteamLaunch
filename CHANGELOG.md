@@ -5,6 +5,10 @@ Breaking config changes are called out explicitly under `Changed`.
 
 ## [Unreleased]
 
+### Added
+- `TKSTEAMLAUNCH_NO_NOTIFY` kill-switch: the test suite sets it, so
+  test runs (and PKGBUILD checks) never pop desktop notifications.
+
 ### Changed
 - AppImage release asset now carries the version
   (`TKSteamLaunch-<version>.AppImage`).
